@@ -3,7 +3,7 @@ This README explains how to use the calculator. It will calculate the IPG Offset
 
 For Cochlear devices, measured with Custom Sound EP:
 1. Export the measured ECAP AGFs from Custom Sound as .xlsx files. 
-2. Set your MATLAB directory to include the folder "IPG Effect Calculator Public".
+2. Set your MATLAB directory to include the folder "ECAP-AGF-Methods-master".
 3. Run ipgEffectCalculator.m
 4. Choose your IPG short file and your IPG long file that you exported from Custom Sound. You can do this by clicking "Browse for IPG Short Filename" and "Browse for IPG Long Filename" in the "Select Files" Panel of the GUI. It might take a few seconds for the files to load, as the program needs to extract the correct information.
 5. Click "Initialize Limits" to set limits to all portions of the ECAP AGFs which overlap. If you want to adjust these limits to only include the most linear portions of the ECAP AGFs, use the upper limit and lower limit sliders. 
@@ -13,6 +13,6 @@ For Advanced Bionics, MedEl, or Oticon devices, measured with their electrophysi
 1. Create a .xlsx file where the first column is the input current (in microamps) and the second column is the resulting output ECAP N1P2 peak (in uV) for a particular amplitude growth function that you have measured. You must create these files for every AGF that you measure. Be sure that the units for the input are microamps and the units for the output are microvolts. 
 2. Follow steps 2 - 6 from the above.
  
-For support, please contact Tim Brochier at tb648@cam.ac.uk
+For support, please contact Tim Brochier at tjbrochier@gmail.com
 If you use the software, please cite this article.
  
